@@ -1,3 +1,6 @@
+# Requires extension ruby files in lib/extensions.
+Dir[Rails.root.join("lib/blogit/*.rb")].each {|f| require f}
+
 # These configuration options can be used to customise the behaviour of Blogit
 Blogit.configure do |config|
 
