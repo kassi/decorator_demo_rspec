@@ -1,4 +1,4 @@
-# Requires extension ruby files in lib/extensions.
+# Requires extension ruby files in lib/blogit.
 Dir[Rails.root.join("lib/blogit/*.rb")].each {|f| require f}
 
 # These configuration options can be used to customise the behaviour of Blogit
